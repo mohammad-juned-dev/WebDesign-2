@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+:root {}
+
+#page1 {
+   height: 100%;
+   width: 100%;
+    background-color: aqua;
+    
+
+    #nav1 {
+        position: relative;
+        height: 80px;
+        width: 100%;
+        background-color: rgb(246, 14, 14);
+        display: flex;
+align-items: center;
+        #part1 {
+            left: 0;
+            height: 100%;
+            width: 150px;
+            background-image: url("../images/navbar_image.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #part2 {  
+            height: 80%;
+            width: 800px;
+            margin-left: 230px;
+            top: 10%;
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            border-radius: 50px;
+
+            h1 {
+                font-size: 20px;
+                border-radius: 50px;
+                background-color: red;
+                padding: 10px 18px;
+            }
+      }
+
+        #nav_button {
+            margin-left: 190px;
+            font-size: 20px;
+            padding: 8px 20px;
+            border: 2px solid black;
+            border-radius: 50px;
+            background-color: chocolate;
+        }
+    }
+    #page1_box1{
+        background-color: bisque;
+        height: 500px;
+        width: 600px;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 20px;
+        #page1_box1_button1{
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 50px;
+            font-size: 10px;
+            color: white;
+            background-color: rgb(203, 183, 183);
+            backdrop-filter: blur(10px);
+            img{
+                height: 10px;
+                margin-right: 5px;
+                filter: sepia(100%) saturate(1000%) hue-rotate(330deg);
+            }
+        }
+        h1{
+            font-size: 60px;
+            
+        }
+p{
+    width: 500px;
+}
+ #page1_box1_button2{
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 50px;
+            font-size: 10px;
+            color: white;
+            background-color: red;
+            backdrop-filter: blur(10px);
+        }
+         #page1_box1_button3{
+            padding: 10px 15px;
+            border: 2px solid black;
+            border-radius: 50px;
+            margin-left: 20px;
+            font-size: 10px;
+            color: white;
+            background-color: red;
+            backdrop-filter: blur(10px);
+        }
+
+    }
+}
